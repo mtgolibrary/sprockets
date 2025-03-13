@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.executables = ["sprockets"]
 
   s.add_dependency "base64"
-  s.add_dependency "rack",            "> 1", "< 3"
-  s.add_dependency "concurrent-ruby", "~> 1.0"
+  s.add_dependency "rack"
+  s.add_dependency "concurrent-ruby"
 
   s.add_development_dependency "closure-compiler", "~> 1.1"
   s.add_development_dependency "coffee-script-source", "~> 1.6"
