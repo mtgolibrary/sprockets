@@ -1,5 +1,11 @@
 # Sprockets: Rack-based asset packaging
 
+CardTrader currently works only with Sprockets v3. This fork of version 3.7.5
+(the latest of version 3) removes the dependency constraint of Rack `< 3`,
+allowing other gems to be updated to versions that require Rack `>= 3`.
+
+---
+
 Sprockets is a Ruby library for compiling and serving web assets.
 It features declarative dependency management for JavaScript and CSS
 assets, as well as a powerful preprocessor pipeline that allows you to
